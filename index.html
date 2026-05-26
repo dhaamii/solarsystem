@@ -3,45 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SOLAR SYSTEM</title>
+    <title>3D CSS SOLAR SYSTEM</title>
     <link rel="stylesheet" type="text/css" href="code.css" />
-  
-  <style>
-    
-  </style>
   </head>
-
-  <body class="body">
+  <body>
    
-<div class ="container">
-    <div class = "sun"><h1>SUN</h1></div>
-    <div class = "mercury"></div>
-    <div class = "venus"></div>
-      <div class = "earth">
-         <div class = "moon"></div>
-</div>
-<div class = "mars"></div>
-<div class = "jupiter">
-  <div class = "europa"></div>
-  <div class = "ganymede"></div>
-  <div class = "callisto"></div>
+    <div class="container">
+      <div class="sun"><span>SUN</span></div>
+      
+      <div class="mercury"><span class="planet-name">Mercury</span></div>
+      
+      <div class="venus"><span class="planet-name">Venus</span></div>
+      
+      <div class="earth">
+        <span class="planet-name">Earth</span>
+        <div class="moon-system">
+          <div class="moon"></div>
+        </div>
+      </div>
+      
+      <div class="mars">
+        <span class="planet-name">Mars</span>
+        <div class="phobos-system"><div class="moon phobos"></div></div>
+        <div class="deimos-system"><div class="moon deimos"></div></div>
+      </div>
+      
+      <div class="jupiter">
+        <span class="planet-name">Jupiter</span>
+        <div class="europa-system"><div class="moon europa"></div></div>
+        <div class="io-system"><div class="moon io"></div></div>
+      </div>
+      
+      <div class="saturn">
+        <span class="planet-name">Saturn</span>
+        <div class="saturn-rings"></div>
+        <div class="titan-system"><div class="moon titan"></div></div>
+      </div>
+    </div>
 
-</div>
-<div class = "saturn">
-  <div class = "titan"></div>
-  <div class = "belt"></div>
-  <div class = "belt"></div>
-  <div class = "belt"></div>
-  <div class = "belt"></div>
-  <div class = "belt"></div>
-  <div class = "belt"></div>
-  <div class = "belt"></div>
-  <div class = "belt"></div>
-  <div class = "belt"></div>
-  <div class = "belt"></div>
-  
-</div>
-</div>
+    <script src="code.js"></script>
   </body>
-  <script src="code.js"></script>
 </html>
